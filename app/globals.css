@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light is the default theme */
+:root {
+  color-scheme: light;
+  --c-base: 250 247 251;
+  --c-surface: 255 255 255;
+  --c-surface2: 241 228 236;
+  --c-border: 132 96 178;
+  --c-ink: 61 44 74;
+  --c-muted: 138 118 144;
+  --c-signal: 124 92 191;
+  --c-mint: 217 139 153;
+  --wp-strong: 0.34;
+  --wp-soft: 0.18;
+}
+
+html.dark {
+  color-scheme: dark;
+  --c-base: 22 17 28;
+  --c-surface: 54 42 68;
+  --c-surface2: 68 54 86;
+  --c-border: 92 74 112;
+  --c-ink: 243 236 247;
+  --c-muted: 182 165 194;
+  --c-signal: 167 139 250;
+  --c-mint: 232 160 174;
+  --wp-strong: 0.16;
+  --wp-soft: 0.08;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+body {
+  color: rgb(var(--c-ink));
+}
+
+:focus-visible {
+  outline: 2px solid rgb(var(--c-signal));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::selection {
+  background: rgb(var(--c-signal) / 0.25);
+}
+
+.font-mono-eyebrow {
+  letter-spacing: 0.08em;
+}
+
+@keyframes gradient-shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.title-glow {
+  color: rgb(var(--c-signal));
+  background: linear-gradient(100deg, rgb(var(--c-ink)) 20%, rgb(var(--c-signal)) 55%, rgb(var(--c-mint)) 75%, rgb(var(--c-ink)) 100%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-shimmer 6s ease-in-out infinite;
+  line-height: 1.35;
+  padding-block: 0.15em;
+}
+
+.subtitle-glow {
+  color: rgb(var(--c-signal));
+  background: linear-gradient(100deg, rgb(var(--c-signal)) 20%, rgb(var(--c-mint)) 60%, rgb(var(--c-signal)) 100%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-shimmer 6s ease-in-out infinite;
+  line-height: 1.4;
+  padding-block: 0.1em;
+}
+
+@keyframes aurora-drift {
+  0%   { transform: translate(0%, 0%) scale(1); }
+  50%  { transform: translate(-7%, 5%) scale(1.1); }
+  100% { transform: translate(5%, -7%) scale(1.05); }
+}
+
+.aurora-field {
+  animation: aurora-drift 16s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aurora-field {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: rgb(var(--c-base)); }
+::-webkit-scrollbar-thumb { background: rgb(var(--c-border)); border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--c-signal) / 0.5); }
