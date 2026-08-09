@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Save, Plus, Trash2, Lock, CheckCircle2, AlertCircle, Loader2 } from "lucide-react";
+import { Save, Plus, Trash2, Lock, CheckCircle2, AlertCircle, Loader2, FileUp, FileText } from "lucide-react";
 
 type Bi = { en: string; ar: string };
 
@@ -19,7 +19,7 @@ type Content = {
   languages: any[];
 };
 
-const TABS = ["Hero", "About", "Contact", "Projects", "Skills", "Leadership", "Honors", "Languages"] as const;
+const TABS = ["Hero", "About", "Contact", "Résumé", "Projects", "Skills", "Leadership", "Honors", "Languages"] as const;
 type Tab = (typeof TABS)[number];
 
 function BiField({ label, value, onChange }: { label: string; value: Bi; onChange: (v: Bi) => void }) {
@@ -87,6 +87,9 @@ export default function AdminEditor() {
   const [tab, setTab] = useState<Tab>("Hero");
   const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">("idle");
   const [saveMsg, setSaveMsg] = useState("");
+  const [resumeState, setResumeState] = useState<"idle" | "uploading" | "done" | "error">("idle");
+  const [resumeMsg, setResumeMsg] = useState("");
+  const [resumeFileName, setResumeFileName] = useState("");
 
   useEffect(() => {
     fetch("/api/admin/content")
@@ -116,6 +119,38 @@ export default function AdminEditor() {
     const data = await r.json();
     setContent(data);
     setAuthed(true);
+  }
+
+  async function uploadResume(file: File) {
+    if (file.type !== "application/pdf") {
+      setResumeState("error");
+      setResumeMsg("Please choose a PDF file.");
+      return;
+    }
+    setResumeState("uploading");
+    setResumeFileName(file.name);
+    try {
+      const buffer = await file.arrayBuffer();
+      const base64 = btoa(
+        new Uint8Array(buffer).reduce((data, byte) => data + String.fromCharCode(byte), "")
+      );
+      const res = await fetch("/api/admin/resume", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ base64 }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Upload failed");
+      setResumeState("done");
+      setResumeMsg(
+        data.mode === "github"
+          ? "Uploaded — committed to GitHub, your site will redeploy in ~1 minute."
+          : "Saved locally to public/resume.pdf."
+      );
+    } catch (e: any) {
+      setResumeState("error");
+      setResumeMsg(String(e.message || e));
+    }
   }
 
   async function save() {
@@ -249,6 +284,61 @@ export default function AdminEditor() {
           <BiField label="University" value={content.about.university} onChange={(v) => setContent({ ...content, about: { ...content.about, university: v } })} />
           <TextField label="GPA" value={content.about.gpa} onChange={(v) => setContent({ ...content, about: { ...content.about, gpa: v } })} />
           <TextField label="Expected graduation" value={content.about.grad} onChange={(v) => setContent({ ...content, about: { ...content.about, grad: v } })} />
+        </div>
+      )}
+
+      {tab === "Résumé" && (
+        <div>
+          <div className="rounded-xl border border-border bg-surface2 p-6 mb-4">
+            <div className="flex items-center gap-3 mb-3">
+              <FileText size={20} className="text-signal" />
+              <p className="text-sm text-ink">
+                Upload a new PDF to replace your résumé everywhere it's linked on the site
+                (Résumé section and Contact icon).
+              </p>
+            </div>
+
+            <label className="flex flex-col items-center justify-center gap-2 rounded-lg border-2 border-dashed border-border hover:border-signal transition-colors cursor-pointer py-8">
+              <FileUp size={24} className="text-muted" />
+              <span className="text-sm text-muted">
+                {resumeState === "uploading" ? "Uploading…" : "Click to choose a PDF file"}
+              </span>
+              <input
+                type="file"
+                accept="application/pdf"
+                className="hidden"
+                disabled={resumeState === "uploading"}
+                onChange={(e) => {
+                  const file = e.target.files?.[0];
+                  if (file) uploadResume(file);
+                }}
+              />
+            </label>
+
+            {resumeFileName && resumeState !== "idle" && (
+              <p className="text-xs text-muted mt-3">Selected: {resumeFileName}</p>
+            )}
+
+            {resumeState === "uploading" && (
+              <div className="flex items-center gap-2 text-sm text-muted mt-3">
+                <Loader2 size={14} className="animate-spin" /> Uploading…
+              </div>
+            )}
+            {resumeState === "done" && (
+              <div className="flex items-center gap-2 text-sm text-mint mt-3">
+                <CheckCircle2 size={14} /> {resumeMsg}
+              </div>
+            )}
+            {resumeState === "error" && (
+              <div className="flex items-center gap-2 text-sm text-signal mt-3">
+                <AlertCircle size={14} /> {resumeMsg}
+              </div>
+            )}
+          </div>
+          <p className="text-xs text-muted">
+            This replaces the file at <code className="text-ink">public/resume.pdf</code>.
+            It uploads immediately on selection — no need to click "Save changes" for this one.
+          </p>
         </div>
       )}
 
