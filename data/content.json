@@ -192,24 +192,24 @@
         "JavaScript"
       ],
       "problem": {
-        "en": "The Oracle Student Club needed a website that actually represented a technology club — polished, animated, and structurally consistent — not a static one-pager.",
-        "ar": "احتاج نادي أوراكل الطلابي إلى موقع يعكس فعليًا هوية نادٍ تقني — أنيق ومتحرك ومتّسق البنية — لا مجرد صفحة ثابتة واحدة."
+        "en": "The Oracle Student Club was the first technical team I joined, and I initially found it challenging to apply what I had learned in a real collaborative environment.",
+        "ar": "كان نادي Oracle الطلابي أول فريق تقني أنضم إليه، ولذلك واجهت في البداية تحديًا في تطبيق ما تعلمته ضمن بيئة عمل جماعية واقعية."
       },
       "solution": {
-        "en": "Working as a frontend developer on the club's site: standardized navigation across every page, built out the members page with an eight-department org chart, and designed animated page backgrounds (a geometric 3D theme for achievements, a scorched-ember theme for contact).",
-        "ar": "أعمل كمطوّرة واجهات أمامية على موقع النادي: وحّدت التنقل عبر جميع الصفحات، وبنيت صفحة الأعضاء بمخطط تنظيمي لثمانية أقسام، وصمّمت خلفيات متحركة لكل صفحة (نمط هندسي ثلاثي الأبعاد للإنجازات، ونمط ناري خافت لصفحة التواصل)."
+        "en": "I pushed myself to explore unfamiliar tools and approaches—something I genuinely enjoy—and learned quickly by actively contributing alongside the team.",
+        "ar": "دفعت نفسي لاستكشاف أدوات وأساليب غير مألوفة، وهو ما أستمتع به فعلًا، وتعلّمت بسرعة من خلال المساهمة الفعّالة مع الفريق."
       },
       "challenges": {
-        "en": "Keeping a consistent design language while multiple contributors touch the same codebase, and making animation choices that fit each page's content rather than reusing one effect everywhere.",
-        "ar": "الحفاظ على لغة تصميم متّسقة رغم تعدد المساهمين في نفس الشيفرة، واختيار حركات تتناسب مع محتوى كل صفحة بدلًا من تكرار تأثير واحد في كل مكان."
+        "en": "Adapting to more advanced technologies while keeping pace with the team’s level of expertise.",
+        "ar": "التكيف مع تقنيات أكثر تقدمًا، ومواكبة مستوى خبرة أعضاء الفريق."
       },
       "outcome": {
-        "en": "A live, actively maintained club website with distinct visual treatments per section.",
-        "ar": "موقع نادٍ فعّال وقيد الصيانة المستمرة، بمعالجة بصرية مميزة لكل قسم."
+        "en": "Contributed to a polished, high-quality website that reflects the Oracle Student Club’s technical standards and identity.",
+        "ar": "ساهمت في تطوير موقع إلكتروني احترافي وعالي الجودة يعكس المعايير التقنية وهوية نادي Oracle الطلابي."
       },
       "impact": {
-        "en": "Ongoing hands-on experience with the same stack this portfolio is built on — Next.js, Tailwind, Framer Motion — shipped for a real team, not just a solo project.",
-        "ar": "خبرة عملية مستمرة بنفس التقنيات المستخدمة في هذا الموقع — Next.js وTailwind وFramer Motion — لكن ضمن فريق حقيقي، لا مشروع فردي فقط."
+        "en": "The project strengthened my confidence in technical teamwork, showed me that stepping outside my comfort zone can lead to meaningful growth and stronger results, and helped me discover my interest in web development.",
+        "ar": "عزز المشروع ثقتي بالعمل ضمن فريق تقني، وأثبت لي أن الخروج من منطقة راحتي يقود إلى تطور حقيقي ونتائج أقوى، كما ساعدني على اكتشاف اهتمامي بتطوير الويب."
       }
     }
   ],
