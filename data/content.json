@@ -319,7 +319,7 @@
     {
       "name": "Git & Linux",
       "category": "Tools",
-      "years": "1 yr",
+      "years": "1+ yr",
       "confidence": 3,
       "usedIn": [
         "oracle-club",
@@ -359,7 +359,7 @@
     {
       "name": "Strategic Leadership",
       "category": "Professional",
-      "years": "1+ yr",
+      "years": "1 yr",
       "confidence": 4,
       "usedIn": [
         "greenledger"
@@ -413,7 +413,7 @@
       "name": "Public Relations & Communications",
       "category": "Professional",
       "years": "2+ yr",
-      "confidence": 4,
+      "confidence": 5,
       "usedIn": [],
       "note": {
         "en": "PR Leader for Programming Club; PR member across GDG, Data Science Club, and TechHub.",
