@@ -217,8 +217,8 @@
     {
       "name": "JavaScript",
       "category": "Language",
-      "years": "2+ yr",
-      "confidence": 4,
+      "years": "6 months",
+      "confidence": 2,
       "usedIn": [
         "oracle-club"
       ],
@@ -243,7 +243,7 @@
     {
       "name": "Next.js",
       "category": "Frontend",
-      "years": "1+ yr",
+      "years": "6 months",
       "confidence": 4,
       "usedIn": [
         "oracle-club"
@@ -256,7 +256,7 @@
     {
       "name": "Tailwind CSS",
       "category": "Frontend",
-      "years": "1+ yr",
+      "years": "6 months",
       "confidence": 4,
       "usedIn": [
         "oracle-club"
@@ -269,7 +269,7 @@
     {
       "name": "Framer Motion",
       "category": "Frontend",
-      "years": "1 yr",
+      "years": "6 months",
       "confidence": 3,
       "usedIn": [
         "oracle-club"
@@ -282,8 +282,8 @@
     {
       "name": "Python",
       "category": "Language",
-      "years": "1 yr",
-      "confidence": 3,
+      "years": "4+ yr",
+      "confidence": 5,
       "usedIn": [
         "rna-seq"
       ],
@@ -309,7 +309,7 @@
       "name": "Java",
       "category": "Language",
       "years": "Coursework",
-      "confidence": 3,
+      "confidence": 5,
       "usedIn": [],
       "note": {
         "en": "Core IS coursework language.",
@@ -319,7 +319,7 @@
     {
       "name": "Git & Linux",
       "category": "Tools",
-      "years": "1+ yr",
+      "years": "1 yr",
       "confidence": 3,
       "usedIn": [
         "oracle-club",
@@ -346,8 +346,8 @@
     {
       "name": "Leadership",
       "category": "Professional",
-      "years": "2+ yr",
-      "confidence": 4,
+      "years": "3+ yr",
+      "confidence": 5,
       "usedIn": [
         "greenledger"
       ],
@@ -386,7 +386,7 @@
     {
       "name": "Project Management",
       "category": "Professional",
-      "years": "1+ yr",
+      "years": "2+ yr",
       "confidence": 4,
       "usedIn": [
         "greenledger"
@@ -436,8 +436,8 @@
     {
       "name": "Adaptability",
       "category": "Professional",
-      "years": "2+ yr",
-      "confidence": 4,
+      "years": "4+ yr",
+      "confidence": 5,
       "usedIn": [],
       "note": {
         "en": "Moved fluidly between startup leadership, research, and frontend development.",
