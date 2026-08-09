@@ -27,18 +27,18 @@
       "مطوّرة واجهات أمامية"
     ],
     "body": {
-      "en": "Curious by nature, I’m always drawn to unfamiliar ideas and new challenges. I value thoughtful work, continuous growth, and the kind of exploration that turns uncertainty into something meaningful.",
-      "ar": "بطبيعتي الفضولية، أنجذب دائماً إلى الأفكار غير المألوفة والتحديات الجديدة. أؤمن بالعمل المدروس، والتطوّر المستمر، والاستكشاف الذي يحوّل المجهول إلى شيء ذي معنى."
+      "en": "Information Systems student at KAU running a startup through the INJAZ competition, contributing to genomics research at KAUST, and building frontend features for the Oracle Student Club.",
+      "ar": "طالبة نظم معلومات في جامعة الملك عبدالعزيز، أدير شركة ناشئة ضمن مسابقة إنجاز، وأساهم في بحث جيني في جامعة كاوست، وأطوّر واجهات أمامية لنادي أوراكل الطلابي."
     }
   },
   "about": {
     "lede": {
-      "en": "I’m an Information Systems student driven by curiosity, creativity, and a genuine interest in building meaningful digital experiences.",
-      "ar": "أنا طالبة نظم معلومات يدفعني الفضول والإبداع والاهتمام الحقيقي ببناء تجارب رقمية ذات معنى."
+      "en": "I'm an Information Systems student at King Abdulaziz University — an Honor Student with a 4.69/5.00 GPA — who splits time between leading a startup, contributing to genomics research, and shipping frontend code.",
+      "ar": "أنا طالبة نظم معلومات في جامعة الملك عبدالعزيز — طالبة متفوقة بمعدل 4.69/5.00 — أوزّع وقتي بين قيادة شركة ناشئة، والمساهمة في بحث جيني، وتطوير واجهات أمامية."
     },
     "body": {
-      "en": "Through academic projects, internships, student organizations, and volunteer work, I continue to explore how technology, business, and design can come together to solve real problems. Each experience has strengthened my analytical thinking, collaboration, and ability to turn ideas into practical outcomes.\n\nI enjoy challenging myself beyond my comfort zone—learning new tools, embracing unfamiliar opportunities, and growing through every project I take on.",
-      "ar": "من خلال المشاريع الأكاديمية، والتدريب، والأنشطة الطلابية، والعمل التطوعي، أستكشف باستمرار كيف يمكن للتقنية والأعمال والتصميم أن تجتمع لحل مشكلات واقعية. وقد عززت هذه التجارب مهاراتي في التفكير التحليلي، والعمل الجماعي، وتحويل الأفكار إلى نتائج عملية.\n\nأستمتع بتحدي نفسي خارج منطقة راحتي، من خلال تعلّم أدوات جديدة، وخوض فرص غير مألوفة، والتطور مع كل مشروع "
+      "en": "As CEO of GreenLedger I'm running venture strategy through the INJAZ Entrepreneurship Competition. At KAUST, I contributed to an RNA-Seq analysis of a TDP-43 knockout model — genuinely different work from anything web-related, and a reminder that the same analytical habits transfer across domains. And on the Oracle Student Club's frontend team, I get to keep building interfaces — in the same stack this site runs on. I care about doing the unglamorous parts of leadership and research properly, not just the parts that photograph well.",
+      "ar": "بصفتي الرئيسة التنفيذية لشركة GreenLedger، أدير استراتيجية المشروع ضمن مسابقة إنجاز لريادة الأعمال. في كاوست، ساهمت في تحليل RNA-Seq لنموذج معطّل الجين TDP-43 — عمل مختلف تمامًا عن أي شيء متعلق بالويب، وتذكير بأن نفس العادات التحليلية تنتقل بين المجالات. وفي فريق الواجهات الأمامية لنادي أوراكل الطلابي، أواصل بناء الواجهات — بنفس التقنيات التي يعمل بها هذا الموقع. أهتم بإتقان الجوانب غير البرّاقة من القيادة والبحث، لا فقط ما يبدو جميلًا في الصور."
     },
     "location": {
       "en": "Jeddah, Saudi Arabia",
@@ -486,8 +486,8 @@
         "ar": "دعمت مبادرات العلاقات العامة والرعاية عبر ثلاث جهات طلابية."
       },
       "achievement": {
-        "en": "Sustained involvement across multiple orgs for over two years.",
-        "ar": "استمرار المشاركة في عدة جهات لأكثر من عامين."
+        "en": "Sustained involvement across multiple student organizations for over two years, contributing to Formula 1 and KAUST visit preparations, sponsorship acquisition, and hospitality coordination.",
+        "ar": "مشاركة مستمرة لأكثر من عامين في عدة منظمات طلابية، شملت المساهمة في التحضير لزيارات الفورمولا 1 وكاوست، وتأمين الرعايات، وتنسيق الضيافة."
       }
     },
     {
@@ -529,16 +529,16 @@
       "title": "Risk Management & Hackathon Operations",
       "org": "Microsoft LSAC · World Space Week SpaceThon · Nahaj Hackathon",
       "learned": {
-        "en": "How to assess operational risk before it becomes an on-the-day problem.",
-        "ar": "كيفية تقييم المخاطر التشغيلية قبل أن تتحول إلى مشكلة يوم التنفيذ."
+        "en": "I strengthened my teamwork, event-planning, visual communication, and deadline-management skills. I also learned how planning, creative design, and on-ground coordination work together to deliver a successful event.",
+        "ar": "عززت مهاراتي في العمل الجماعي، وتخطيط الفعاليات، والتواصل البصري، وإدارة الوقت ضمن المواعيد المحددة. كما تعلّمت كيف تتكامل مراحل التخطيط والتصميم الإبداعي والتنسيق الميداني لتقديم فعالية ناجحة."
       },
       "responsibilities": {
-        "en": "Supported operational planning and risk assessment across multiple hackathon-style events.",
-        "ar": "دعمت التخطيط التشغيلي وتقييم المخاطر عبر عدة فعاليات على نمط الهاكاثون."
+        "en": "Contributed to planning initiatives at Microsoft LSAC, created the visual identity for World Space Week SpaceThon, and supported the coordination and operations of the Nahaj Hackathon.",
+        "ar": "ساهمت في تخطيط المبادرات ضمن Microsoft LSAC، وطوّرت الهوية البصرية لفعالية World Space Week SpaceThon، ودعمت تنسيق وعمليات Nahaj Hackathon."
       },
       "achievement": {
-        "en": "Contributed to successful execution across all three events.",
-        "ar": "ساهمت في التنفيذ الناجح للفعاليات الثلاث جميعها."
+        "en": "Contributed to three student events in distinct roles, helping create engaging and well-organized experiences while building practical skills in planning, design, and event execution.",
+        "ar": "ساهمت في ثلاث فعاليات طلابية بأدوار متنوعة، وساعدت في تقديم تجارب منظمة وجاذبة، مع تطوير مهارات عملية في التخطيط والتصميم وتنفيذ الفعاليات."
       }
     },
     {
@@ -563,16 +563,16 @@
       "title": "CEO",
       "org": "GreenLedger, INJAZ Entrepreneurship Competition",
       "learned": {
-        "en": "What it takes to hold strategy, team, and external presentation together at once.",
-        "ar": "ما يتطلبه الجمع بين الاستراتيجية والفريق والعروض الخارجية في آنٍ واحد."
+        "en": "I developed stronger leadership, strategic thinking, and decision-making skills. Leading Green Ledger taught me how to turn an idea into a clear direction, balance different priorities, and support a team toward a shared goal.",
+        "ar": "طوّرت مهاراتي في القيادة، والتفكير الاستراتيجي، واتخاذ القرار. علّمتني قيادة Green Ledger كيفية تحويل الفكرة إلى رؤية واضحة، وتحقيق التوازن بين الأولويات، ودعم الفريق نحو هدف مشترك."
       },
       "responsibilities": {
-        "en": "Led startup strategy, coordinated a cross-functional team, delivered venture presentations to mentors and judges.",
-        "ar": "قدت استراتيجية المشروع، ونسّقت فريقًا متعدد التخصصات، وقدّمت عروضًا أمام الموجهين والمحكّمين."
+        "en": "Led the overall vision and strategy of Green Ledger, coordinated team efforts, guided planning and execution, and represented the project when communicating with stakeholders and partners.",
+        "ar": "قدت الرؤية والاستراتيجية العامة لمشروع Green Ledger، ونسّقت جهود الفريق، ووجّهت التخطيط والتنفيذ، ومثّلت المشروع في التواصل مع الجهات المعنية والشركاء."
       },
       "achievement": {
-        "en": "Took a venture from concept through active competition rounds as its lead.",
-        "ar": "قدت المشروع من مرحلة الفكرة وحتى جولات المسابقة الفعلية."
+        "en": "Led Green Ledger as CEO, driving the project’s development from idea to execution while creating a focused team direction and strengthening its potential impact.",
+        "ar": "قدت مشروع Green Ledger بصفتي الرئيسة التنفيذية، ودفعت بتطويره من الفكرة إلى التنفيذ، مع بناء توجه واضح للفريق وتعزيز أثر المشروع المحتمل."
       }
     },
     {
@@ -580,16 +580,16 @@
       "title": "Technical Member",
       "org": "Oracle Student Club",
       "learned": {
-        "en": "How the club's technical initiatives are planned before they reach the frontend team.",
-        "ar": "كيف تُخطَّط مبادرات النادي التقنية قبل وصولها إلى فريق الواجهات الأمامية."
+        "en": "I strengthened my problem-solving, teamwork, and adaptability skills by working in a technical environment. The experience helped me understand how to collaborate effectively, communicate ideas clearly, and contribute to projects from both a technical and organizational perspective.",
+        "ar": "عززت مهاراتي في حل المشكلات، والعمل الجماعي، والقدرة على التكيف من خلال العمل ضمن بيئة تقنية. كما ساعدتني التجربة على فهم كيفية التعاون بفاعلية، والتواصل الواضح مع الفريق، والمساهمة في المشاريع من منظور تقني وتنظيمي."
       },
       "responsibilities": {
-        "en": "Collaborated with the technical team to deliver club projects and initiatives.",
-        "ar": "تعاونت مع الفريق التقني لتنفيذ مشاريع ومبادرات النادي."
+        "en": "Contributed as a technical member of the Oracle Student Club by supporting club projects, collaborating with team members, and assisting with the development and delivery of technical initiatives.",
+        "ar": "ساهمت كعضوة تقنية في نادي Oracle الطلابي من خلال دعم مشاريع النادي، والتعاون مع أعضاء الفريق، والمساعدة في تطوير وتنفيذ المبادرات التقنية."
       },
       "achievement": {
-        "en": "Active on the technical team alongside the frontend developer role below.",
-        "ar": "عضوة نشطة في الفريق التقني إلى جانب دور مطوّرة الواجهات الأمامية أدناه."
+        "en": "Contributed to the successful delivery of technical club initiatives while developing practical experience in collaborative problem-solving and project execution.",
+        "ar": "ساهمت في تنفيذ مبادرات تقنية ناجحة للنادي، مع اكتساب خبرة عملية في حل المشكلات بشكل جماعي وتنفيذ المشاريع."
       }
     },
     {
@@ -605,8 +605,8 @@
         "ar": "قدت معسكرًا تدريبيًا في لينكس وGit، ونسّقت المحتوى والمشاركين والتنفيذ."
       },
       "achievement": {
-        "en": "Delivered a full bootcamp from content design through participant delivery.",
-        "ar": "نفّذت معسكرًا كاملًا من تصميم المحتوى وحتى تقديمه للمشاركين."
+        "en": "Helped deliver a successful bootcamp attended by more than 50 participants, who responded positively to the learning experience.",
+        "ar": "ساهمت في تقديم معسكر تدريبي ناجح حضره أكثر من 50 مشاركًا، وحظي بتفاعل وانطباع إيجابي من الحضور."
       }
     },
     {
